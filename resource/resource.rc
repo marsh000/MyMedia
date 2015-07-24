@@ -1,0 +1,4 @@
+aaaa ICON "wx/msw/std.ico"
+//ToolbarBtnReverse RCDATA ".\\resource\\images\\reverse.bmp"
+
+#include "wx/msw/wx.rc"

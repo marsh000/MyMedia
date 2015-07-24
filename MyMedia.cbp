@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MyMedia" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/debug/MyMedia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/debug/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="/MDd" />
+					<Add option="/Zi" />
+					<Add option="/D_DEBUG" />
+					<Add option="/D__WXDEBUG__" />
+					<Add directory="C:/Development/wxWidgets-3.0.0/lib/vc_dll/mswud" />
+					<Add directory="C:/Development/sqlite" />
+					<Add directory="C:/Development/taglib-1.8" />
+					<Add directory="C:/Development/taglib-1.8/taglib" />
+					<Add directory="C:/Development/taglib-1.8/taglib/toolkit" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/Development/wxWidgets-3.0.0/lib/vc_dll/mswud" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="/DEBUG" />
+					<Add option="/NODEFAULTLIB:libcmtd.lib" />
+					<Add option="/NODEFAULTLIB:msvcrt.lib" />
+					<Add library="msvcrtd.lib" />
+					<Add library="wxmsw30ud.lib" />
+					<Add library="C:/Development/sqlite/sqlite3.lib" />
+					<Add library="C:/Development/taglib-1.8/taglib/Debug/tag.lib" />
+					<Add directory="C:/Development/wxWidgets-3.0.0/lib/vc_dll" />
+					<Add directory="C:/Development/sqlite" />
+					<Add directory="C:/Development/taglib-1.8" />
+					<Add directory="C:/Development/taglib-1.8/taglib" />
+					<Add directory="C:/Development/taglib-1.8/taglib/toolkit" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/release/MyMedia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/release/" />
+				<Option type="0" />
+				<Option compiler="msvc10" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="/MD" />
+					<Add option="/O2" />
+					<Add option="/Ox" />
+					<Add option="/DNDEBUG" />
+					<Add directory="C:/Development/wxWidgets-3.0.0/lib/vc_dll/mswu" />
+					<Add directory="C:/Development/sqlite" />
+					<Add directory="C:/Development/taglib-1.8" />
+					<Add directory="C:/Development/taglib-1.8/taglib" />
+					<Add directory="C:/Development/taglib-1.8/taglib/toolkit" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/Development/wxWidgets-3.0.0/lib/vc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="/NODEFAULTLIB:libcmt.lib" />
+					<Add library="msvcrt.lib" />
+					<Add library="wxmsw30u.lib" />
+					<Add library="C:/Development/sqlite/sqlite3.lib" />
+					<Add library="C:/Development/taglib-1.8/taglib/Release/tag.lib" />
+					<Add directory="C:/Development/wxWidgets-3.0.0/lib/vc_dll" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="/EHc" />
+			<Add option="/EHs" />
+			<Add option="/W3" />
+			<Add option="/Zc:auto" />
+			<Add option="/Zc:wchar_t" />
+			<Add option="/DWIN32" />
+			<Add option="/D__WIN32__" />
+			<Add option="/D__WXMSW__" />
+			<Add option="/DWXUSINGDLL" />
+			<Add option="/DwxUSE_UNICODE" />
+			<Add option="/D_WINDOWS" />
+			<Add option="/D_CRT_SECURE_DEPRECATE" />
+			<Add option="/D_CRT_NONSTDC_NO_DEPRECATE" />
+			<Add option="/D_CRT_SECURE_NO_WARNINGS" />
+			<Add directory="C:/Development/wxWidgets-3.0.0/include" />
+			<Add directory="C:/Development/PlatformSDK/include/atl" />
+			<Add directory="C:/Programming/MyMedia" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/Development/wxWidgets-3.0.0/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="/INCREMENTAL:NO" />
+			<Add option="/SUBSYSTEM:WINDOWS" />
+			<Add library="winmm.lib" />
+			<Add library="rpcrt4.lib" />
+			<Add library="PortableDeviceGUIDs.lib" />
+			<Add directory="C:/Development/PSDK-7.1/Lib/PortableDeviceGuids.lib" />
+		</Linker>
+		<Unit filename="include/App.h" />
+		<Unit filename="include/Custom Controls/ElapsedTimeCtrl.h" />
+		<Unit filename="include/Custom Controls/Media Players/MediaPlayerStyling.h" />
+		<Unit filename="include/Custom Controls/Media Players/MusicPlayer.h" />
+		<Unit filename="include/Custom Controls/ScrollingTextCtrl.h" />
+		<Unit filename="include/Custom Controls/SliderCtrl.h" />
+		<Unit filename="include/Custom Controls/VolumeCtrl.h" />
+		<Unit filename="include/Database.h" />
+		<Unit filename="include/DeviceRegistry.h" />
+		<Unit filename="include/Device/DeviceBase.h" />
+		<Unit filename="include/Device/VolumeDevice.h" />
+		<Unit filename="include/Dialogs/NewDevice.h" />
+		<Unit filename="include/DirTraverser.h" />
+		<Unit filename="include/ErrorLog.h" />
+		<Unit filename="include/FilePaths.h" />
+		<Unit filename="include/Helper.h" />
+		<Unit filename="include/Library/LibraryBase.h" />
+		<Unit filename="include/Library/LibraryTreeItemData.h" />
+		<Unit filename="include/Library/MusicLibrary.h" />
+		<Unit filename="include/Library/PictureLibrary.h" />
+		<Unit filename="include/Main.h" />
+		<Unit filename="include/Media/MediaBase.h" />
+		<Unit filename="include/Media/Song.h" />
+		<Unit filename="include/Time.h" />
+		<Unit filename="include/dnd.h" />
+		<Unit filename="include/version.h" />
+		<Unit filename="include/wxMSWHeaders.h" />
+		<Unit filename="src/App.cpp" />
+		<Unit filename="src/Custom Controls/ElapsedTimeCtrl.cpp" />
+		<Unit filename="src/Custom Controls/Media Players/MusicPlayer.cpp" />
+		<Unit filename="src/Custom Controls/ScrollingTextCtrl.cpp" />
+		<Unit filename="src/Custom Controls/SliderCtrl.cpp" />
+		<Unit filename="src/Custom Controls/VolumeCtrl.cpp" />
+		<Unit filename="src/Database.cpp" />
+		<Unit filename="src/DeviceRegistry.cpp" />
+		<Unit filename="src/Device/DeviceBase.cpp" />
+		<Unit filename="src/Device/VolumeDevice.cpp" />
+		<Unit filename="src/Dialogs/NewDevice.cpp" />
+		<Unit filename="src/DirTraverser.cpp" />
+		<Unit filename="src/ErrorLog.cpp" />
+		<Unit filename="src/Helper.cpp" />
+		<Unit filename="src/Library/LibraryBase.cpp" />
+		<Unit filename="src/Library/MusicLibrary.cpp" />
+		<Unit filename="src/Library/PictureLibrary.cpp" />
+		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/Media/MediaBase.cpp" />
+		<Unit filename="src/Media/Song.cpp" />
+		<Unit filename="src/dnd.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="150" rev_max="0" rev_rand_max="1" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" use_define="0" update_manifest="1" do_auto_increment="1" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="include/version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangeLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

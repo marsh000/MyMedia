@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveProject path="MyMedia.cbp" />
+	<EditorTabsLayout layout="06bb9f4055a8cf2b0000903900000002=0;MyMedia:include\FilePaths.h,1;MyMedia:include\wxMSWHeaders.h,2;MyMedia:include\Main.h,3;MyMedia:src\Main.cpp,9;MyMedia:include\Dialogs\NewDevice.h,*10;MyMedia:src\Dialogs\NewDevice.cpp|06bb9c5055a8cf2b0000904900000003=4;,5;MyMedia:include\dnd.h,6;MyMedia:src\dnd.cpp,7;MyMedia:include\Device\DeviceBase.h,+8;MyMedia:include\Media\MediaBase.h@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=180;minw=180;minh=180;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=06bb9f4055a8cf2b0000903900000002;caption=;state=2098172;dir=5;layer=0;row=1;pos=0;prop=155180;bestw=180;besth=180;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=06bb9c5055a8cf2b0000904900000003;caption=;state=2098172;dir=3;layer=0;row=1;pos=0;prop=100000;bestw=561;besth=209;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,1)=563|dock_size(3,0,1)=143|" />
+</CodeBlocks_workspace_layout_file>
